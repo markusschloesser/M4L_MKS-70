@@ -22,3 +22,8 @@ This is currently the first public release (internal version 21), so there might
 Future plans:
 1. make it birectional with patch parsing, so that the shown values represent the actual values.
 2. make it prettier and maybe do a popup version 
+
+PS: It might work with the JX8P with Vecoven mod
+
+
+Thank you so much to Fred Vecoven for providing the updated firmware in the first place and for helping me with the maddening (original) sysex implementation of the device!
