@@ -27,3 +27,7 @@ PS: It might work with the JX8P with Vecoven mod
 
 
 Thank you so much to Fred Vecoven for providing the updated firmware in the first place and for helping me with the maddening (original) sysex implementation of the device!
+
+How does it look like?
+![mks70](https://github.com/markusschloesser/M4L_MKS-70/assets/59286549/de083e57-0b8c-412d-aafb-97e4aa84d185)
+
