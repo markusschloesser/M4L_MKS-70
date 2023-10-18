@@ -3,15 +3,14 @@ A Max for Live device for the Roland MKS-70 and JX-10 with Vecoven mod
 
 Prerequisites:
 1. MKS-70 or JX10
-2. Vecoven Mod v4.x (3.x will probably work as well)
-3. if you don't a PWM daughter board, parameters for PWM won't do anything)
-4. Ableton Live Suite 11 (only one tested, MIGHT work with Live 10)
+2. Vecoven Mod v4.x (3.x will only work for Patch Parameters, but not for Tone)
+3. Ableton Live Suite 11 (only one tested, MIGHT work with Live 10)
 
 With this m4l device you can control and edit all (!) parameters of the Roland MKS-70 and JX10 from Ableton Live.
 This is done separately for UPPER and LOWER, that's why the device is soooo fucking wide, there's shitloads of parameters, apologies.
 I might at some point do a popup version, but would need to learn this first 😇.
 
-The device is currently unidirectional, which means 2 things:
+The device is currently unidirectional (M4L device > MKS70), which means 2 things:
 1. The values of the controls will not have a correct representation of the actual values on the synth, UNLESS you change each parameter one on the m4l device.
 2. Values will jump to the value you'll click.
 
@@ -29,7 +28,7 @@ Because even though there are fantastic CTRLR panels out there (see 4, Prior Art
 Why is it Sysex based and not CC?
 Because the Vecoven mod uses NRPN for the parameters and Ableton Live is imho not that good with NRPN, especially when it comes to automation.
 
-PS: It might work with the JX8P with Vecoven mod
+PS: It might work with the JX8P with Vecoven mod (don't know, let me know)
 
 
 Thank you so much to Fred Vecoven for providing the updated firmware in the first place and for helping me with the maddening (original) sysex implementation of the device!
