@@ -1,25 +1,26 @@
 # A M4L (max for Live) device for the MKS-70 and JX10
 A Max for Live device for the Roland MKS-70 and JX-10 with Vecoven mod
 
-Prerequisites:
+## Prerequisites:
 1. MKS-70 or JX10
-2. Vecoven Mod v4.x (3.x will only work for Patch Parameters, but not for Tone)
-3. Ableton Live Suite 11 (only one tested, MIGHT work with Live 10)
+2. Vecoven Mod v4.x (3.x will only work for Patch Parameters, but not for Tone), ideally you ask Fred for 4.19, which includes requesting the edit buffer (not yet publicly available).
+3. Ableton Live Suite 11 or 12 (only one tested, MIGHT work with Live 10)
 
+## What does it do?
 With this m4l device you can control and edit all (!) parameters of the Roland MKS-70 and JX10 from Ableton Live.
 This is done separately for UPPER and LOWER, that's why the device is soooo fucking wide, there's shitloads of parameters, apologies.
 I might at some point do a popup version, but would need to learn this first 😇.
 
-The device is currently unidirectional (M4L device > MKS70), which means 2 things:
-1. The values of the controls will not have a correct representation of the actual values on the synth, UNLESS you change each parameter one on the m4l device.
-2. Values will jump to the value you'll click.
+The device is bidirectional (M4L device <> MKS70), it can do patch parsing and also request the edit buffer.
 
 There's no patch/preset storage on the device (yet). So if you change something and like it, store it ON the MKS70/JX10 itself. 
 
-This is currently the first public release (internal version 21), so there might be bugs! If you find one, please tell me! (open an "Issue" here on GitHub).
+There might be bugs! If you find one, please tell me! (open an "Issue" here on GitHub).
 
-Future plans:
-1. make it birectional with patch parsing, so that the shown values represent the actual values.
+# Current version: **v37**
+
+## Future plans:
+1. ~~make it birectional with patch parsing, so that the shown values represent the actual values.~~ ✅
 2. make it prettier and maybe do a popup version
 
 Why did I build the device?
@@ -36,7 +37,11 @@ Thank you so much to Fred Vecoven for providing the updated firmware in the firs
 How does it look like?
 ![mks70](https://github.com/markusschloesser/M4L_MKS-70/assets/59286549/de083e57-0b8c-412d-aafb-97e4aa84d185)
 
-Prior Art / Further information:
+### Changelog:
+look at the names of the files, included what changed.
+
+
+### Prior Art / Further information:
 1. http://llamamusic.com/super-jx/superjx.html HUGE resource
 2. http://www.vecoven.com/superjx/superjx.html All this wouldn't be possible without Fred's mod, if you have a MKS70 or JX10, you should absolutely get the mod
 3. https://gearspace.com/board/electronic-music-instruments-and-electronic-music-production/817800-roland-mks-70-upgrade-modification-beta-testers-wanted.html THE forum thread about the mod. You probably don't need to start in 2013 (page 1)
