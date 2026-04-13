@@ -17,7 +17,7 @@ There's no patch/preset storage on the device (yet). So if you change something 
 
 There might be bugs! If you find one, please tell me! (open an "Issue" here on GitHub).
 
-# Current version: **v37**
+# Current version: **v38**
 
 ## Future plans:
 1. ~~make it birectional with patch parsing, so that the shown values represent the actual values.~~ ✅
